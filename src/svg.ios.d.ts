@@ -11,7 +11,7 @@ export declare class ImageSourceSVG implements svg.ImageSourceSVG {
     fromData(data: any): Promise<boolean>;
     loadFromBase64(source: string): boolean;
     fromBase64(source: string): Promise<boolean>;
-    private loadFromUrl;
+    private loadFromUrl(url);
     fromUrl(url: string): Promise<boolean>;
     setNativeSource(source: any): boolean;
     saveToFile(path: string): boolean;
