@@ -8,6 +8,10 @@
 
 `tns plugin add @teammaestro/nativescript-svg`
 
+Install package with a fixed Angular AOT:
+
+`tns plugin add https://github.com/ikysylevych/nativescript-svg/releases/download/v2.0.1/teammaestro-nativescript-svg-1.0.1.tgz`
+
 ## Usage
 
 You use it in the same way you use Image source.
